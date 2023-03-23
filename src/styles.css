@@ -15,7 +15,7 @@ main {
   border: solid whitesmoke 1px;
   width: 630px;
   height: 790px;
-  border-radius: 5px;
+  border-radius: 15px;
   margin: 0 auto;
   position: relative;
 }
@@ -28,8 +28,6 @@ main {
 }
 
 #numbers {
-    border: solid whitesmoke 1px;
-    border-radius: 5px;
     padding: 10px;
     margin: 0 auto;
     position: absolute;
@@ -45,7 +43,7 @@ main {
     cursor: pointer;
     color: white;
     border: solid whitesmoke 1px;
-    border-radius: 3px;
+    border-radius: 20px;
     background-color: transparent;
     height: 120px;
     width: 120px;
@@ -54,8 +52,6 @@ main {
 }
 
 #operations {
-  border: solid whitesmoke 1px;
-  border-radius: 5px;
   padding: 10px;
   margin-right: 10px;
   position: absolute;
@@ -72,8 +68,6 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  border: solid whitesmoke 1px;
-  border-radius: 4px;
   width: 100%;
   font-size: small;
   height: 20px;
