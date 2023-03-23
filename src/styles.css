@@ -13,7 +13,7 @@ h1 {
 
 main {
   border: solid whitesmoke 1px;
-  width: 700px;
+  width: 630px;
   height: 790px;
   border-radius: 5px;
   margin: 0 auto;
@@ -51,6 +51,22 @@ main {
     width: 120px;
     font-size: 30px;
     box-shadow: 0 6px 6px rgba(0.5, 0, 0, 1);
+}
+
+#operations {
+  border: solid whitesmoke 1px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(1);
+  grid-template-rows: repeat(4, 140px);
+  height: 600px;
+  font-size: 30px;
 }
 footer {
   position: fixed;
